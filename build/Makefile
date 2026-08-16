@@ -1,3 +1,7 @@
+all:
+	make project
+	make gen_hw
+
 project:
 	vivado \
 		-mode batch \
